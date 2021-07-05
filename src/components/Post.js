@@ -23,7 +23,7 @@ const Post = () => {
     }
     console.log(postMessages)
     return (
-        <Grid container item xs={12} md={12} justify="center" >
+        <Grid container item xs={12} md={12} justify="center" style={{ marginTop: '2rem' }}>
             <Grid item xs={12} sm={12} md={6} className={classes.displayText}>
                 <Grid item xs={12} sm={12} md={12} >           {postMessages.map((item) => {
 
